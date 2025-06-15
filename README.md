@@ -1,5 +1,5 @@
-# calc
-для сборки 
-make && ./run.sh
+Это HTTP сервер на языке C с использованием библиотеки Mongoose.
 
-очистка make clean
+для сборки ___   make && ./run.sh
+
+очистка    ___   make clean

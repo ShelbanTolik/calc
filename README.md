@@ -1,5 +1,5 @@
 # calc
-для сбоки 
+для сборки 
 make && ./run.sh
 
 очистка make clean

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Calculator</h1>
+  <form method="POST" action="/calculate">
+  <input name="a" type="number" step="any" required placeholder="First number">
+  <select name="op" required>
+    <option value="add">+</option>
+    <option value="sub">-</option>
+    <option value="mul">×</option>
+    <option value="div">÷</option>
+  </select>
+  <input name="b" type="number" step="any" required placeholder="Second number">
+  <button type="submit">Calculate</button>
+</form>
+</body>
+</html>
